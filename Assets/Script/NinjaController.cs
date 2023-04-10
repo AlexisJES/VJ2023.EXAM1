@@ -53,6 +53,16 @@ public class NinjaController : MonoBehaviour
             currentAnimation = 4;
         }
 
+        if (Input.GetKey(KeyCode.Z))
+        {
+            currentAnimation = 5;
+        }
+
+        if (Input.GetKey(KeyCode.C))
+        {
+            currentAnimation = 6;
+        }
+
         anim.SetInteger("Ninja", currentAnimation);
 
     }
